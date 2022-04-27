@@ -11,7 +11,7 @@ Here's the bubble code:
 First create a `div` or any block element in the HTML and classify it as `bubbles`. Then set the parent container's `position` to `relative` or `absolute`
 
 
-`.bubbles {`
+`.bubbles {`<br>
 `opacity: .5;`
  `position: absolute;`
  /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely. */
