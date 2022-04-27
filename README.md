@@ -10,11 +10,9 @@ Here's the bubble code:
 
 First create a `div` or any block element in the HTML and classify it as `bubbles`. Then set the parent container's `position` to `relative` or `absolute`
 
-
-`.bubbles {`<br>
-`opacity: .5;`
- `position: absolute;`
- /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely. */
+|.bubbles {|
+|opacity: .5;|
+|position: absolute;| /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely.|
  
  `min-height: 100%;` /* Use the maximum height of the viewport */
  
