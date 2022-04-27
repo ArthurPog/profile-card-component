@@ -10,7 +10,7 @@ Here's the bubble code:
 
 First create a `div` or any block element in the HTML and classify it as `bubbles`. Then set the parent container's `position` to `relative` or `absolute`
 
-`.bubbles {`<br>
+|.bubbles {`<br>
 `opacity: .5;`<br>
 `position: absolute; /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely. */`<br>
 `min-height: 100%; /* Use the maximum height of the viewport */`<br>
@@ -20,4 +20,4 @@ First create a `div` or any block element in the HTML and classify it as `bubble
 `background-attachment: fixed; /* Makes the background static and stops it from moving when scrollin the page */`<br>
 `background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg); /* Here we bring in two images, the bubble on the top and the one on the bottom */`<br>
 `background-position: calc(50% - 490px) calc(50% - 400px), calc(50% + 470px) calc(50% + 430px); /* This calculates positions for the top and bottom bubble using the calc function. Basically for the top bubble for example, it is starting from the middle horizontally (X axis, that's the first number, 50%) then it is subtracting 490px from it which moves it to the left 490px and then vertically in the middle 50%-4000px which moves it up along the Y axis. */`<br>
-`}`
+|
