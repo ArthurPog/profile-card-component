@@ -9,6 +9,7 @@
   --Dark-grayish-blue: hsl(227, 10%, 46%);
   --Dark-gray: hsl(0, 0%, 59%);
   --Dark-border: hsl(0, 0%, 91%);
+  color: var(--Very-dark-desaturated-blue);
 }
 
 body {
@@ -74,10 +75,15 @@ main {
   margin-right: .25rem;
 }
 
+.user-age {
+  color: var(--Dark-grayish-blue);
+}
+
 .user-city {
   display: block;
   font-size: .7rem;
   margin: .5rem 0 1.5rem 0;
+  color: var(--Dark-grayish-blue);
 }
 
 .stats {
@@ -94,6 +100,7 @@ main {
 .amount-name {
   font-size: .5rem;
   letter-spacing: .120rem;
+  color: var(--Dark-grayish-blue);
 }
 
 .stat-section {
