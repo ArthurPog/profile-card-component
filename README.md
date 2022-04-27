@@ -6,9 +6,11 @@ My biggest challenge here was creating the backround bubbles so that they stay s
 
 I still haven't completely grasped how background images work 100% of the time, but this has shed some valuable light into the whole ordeal and so I will keep on experimenting.
 
+
 Here's the bubble code:
 
 First create a `div` or any block element in the HTML and classify it as `bubbles`. Then set the parent container's `position` to `relative` or `absolute`
+
 
 | Syntax | Description |
 | ----------- | ----------- |
