@@ -10,10 +10,10 @@ Here's the bubble code:
 
 // First create a `div` or any block element in the HTML and classify it as `bubbles`. Then set the parent container's `position` to `relative` or `absolute`
 
-`.bubbles {
-  opacity: .5;
-  position: absolute; /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely. */
-  min-height: 100%; /* asd */
+`.bubbles {`
+`  opacity: .5;`
+`  position: absolute; /* This will make it so the background "floats" above where it normal should be, thus helping us position it freely. */`
+`  min-height: 100%; /* asd */`
   min-width: 100%; /* asd */
   background-repeat: no-repeat; /* Background repeats by default on the X and Y axis, this stops that. */
   z-index: -1; /* Moves the background behind everything else on the page. The Z axis is basically the layer axis of a page. */
