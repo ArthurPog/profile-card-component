@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+  --Dark-border: hsl(0, 0%, 91%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Dark-cyan);
+  position:relative;
+}
+
+.bubbles {
+  opacity: .5;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-attachment: fixed;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: calc(50% - 490px) calc(50% - 400px), calc(50% + 470px) calc(50% + 430px);
+}
+
+main {
+  background: white;
+  -webkit-box-shadow: 0px 18px 50px -12px rgba(0,0,0,0.3); 
+  box-shadow: 0px 18px 50px -12px rgba(0,0,0,0.3);
+  border-radius: 1rem;
+  min-width: 350px;
+  margin: 2rem;
+}
+
+.card-hero {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  position: absolute;
+  border-radius: 100px;
+  border: solid white 5px;
+  top: -52px;
+}
+
+.user-details {
+  min-height: 145px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.user-name {
+  font-weight: 700;
+  margin-right: .25rem;
+}
+
+.user-city {
+  display: block;
+  font-size: .7rem;
+  margin: .5rem 0 1.5rem 0;
+}
+
+.stats {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1.5rem;
+}
+
+.amount {
+  font-weight: 700;
+  display: block;
+}
+
+.amount-name {
+  font-size: .5rem;
+  letter-spacing: .120rem;
+}
+
+.stat-section {
+  border-top: solid 1px;
+  border-color: var(--Dark-border);
+  text-align: center;
+  padding: 1.4rem 0;
+}
