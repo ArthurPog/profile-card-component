@@ -1,5 +1,16 @@
 # Profile Card Component Challenge Using Frontend Mentor
 
+##This was the assignment
+
+Click here to see the live page
+
+
+
+##This is my solution
+
+![](https://github.com/ArthurPog/profile-card-component/design/Profile_ card_component-my_screenshot.png)
+
+
 This is my sixth project on my journey to learning HTML &amp; CSS while doing Frontend Mentor challenges.
 
 My biggest challenge here was creating the backround bubbles so that they stay static and don't move around or resize.
