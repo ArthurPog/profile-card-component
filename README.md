@@ -2,11 +2,11 @@
 
 ## This was the assignment
 
-Click here to see the live page
-
-
+![](./design/desktop-design.jpg)
 
 ## This is my solution
+
+[Click here to see the live page](https://arthurpog.github.io/profile-card-component/)
 
 ![](./design/Profile_%20card_component-my_solution.png)
 
