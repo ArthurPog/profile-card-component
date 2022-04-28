@@ -1,4 +1,4 @@
-# Profile Card Component Challenge Using Frontend Mentor
+# My sixth project and solution to the profile card component challenge over at [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 ## This was the assignment
 
