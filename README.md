@@ -1,12 +1,12 @@
 # Profile Card Component Challenge Using Frontend Mentor
 
-##This was the assignment
+## This was the assignment
 
 Click here to see the live page
 
 
 
-##This is my solution
+## This is my solution
 
 ![](./design/Profile_%20card_component-my_solution.png)
 
