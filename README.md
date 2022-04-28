@@ -8,7 +8,7 @@ Click here to see the live page
 
 ##This is my solution
 
-![](https://raw.githubusercontent.com/ArthurPog/profile-card-component/main/design/Profile_%20card_component-my_screenshot.png)
+![](./design/Profile_%20card_component-my_solution.png)
 
 
 This is my sixth project on my journey to learning HTML &amp; CSS while doing Frontend Mentor challenges.
